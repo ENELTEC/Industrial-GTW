@@ -1,0 +1,62 @@
+{
+    "nbiot" : {
+        "enable": false,
+        "apn": "",
+        "user": "",
+        "password": "",
+        "band": 28,
+        "failsafe_only": false
+    },
+    "general": {
+        "ntp": {
+            "enable": false,
+            "server": "a.ntp.org",
+            "timezone": -3
+        },
+        "period": 30
+    },
+    "fichario": {
+        "enable": false,
+        "user": "",
+        "password": "",
+        "ficharioId": "",
+        "host": "",
+        "ssl": true,
+        "qos": 1
+    },
+    "network": {
+        "wifi": {
+            "enable": false,
+            "ssid": "",
+            "password": "",
+            "dhcp": true,
+            "staticIp": {
+                "ip": "",
+                "gateway": "",
+                "subnet": "",
+                "dns": ""
+            }
+        },
+        "ethernet": {
+            "enable": true,
+            "dhcp": true,
+            "staticIp": {
+                "ip": "",
+                "gateway": "",
+                "subnet": "",
+                "dns": ""
+            }
+        }
+    },
+    "rtu":{
+        "baudrate": 9600,
+        "parity": 0,
+        "databits": 8,
+        "stopbits": 1,
+        "inter_frame_delay": -1,
+        "inter_block_delay": 10,
+        "inter_pool_delay": 100
+    },
+    "slaves": [],
+    "servers": []
+}
